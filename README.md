@@ -1,6 +1,6 @@
 # MiniGo Compiler Project
 
-This repository contains the source code for a compiler implementation for **MiniGo**, a simplified subset of the Go programming language (Golang), developed as a series of assignments for the **Principles of Programming Languages** course (CO3005). The compiler is built using **ANTLR 4** for Lexing and Parsing, and the subsequent phases (AST generation, Semantic Checking, and Code Generation) are implemented in **Python**. The target environment for the generated code is the **Java Virtual Machine (JVM)**.
+This repository contains the source code for a compiler implementation for **MiniGo**, a simplified subset of the Go programming language (Golang). The compiler is built using **ANTLR 4** for Lexing and Parsing, and the subsequent phases (AST generation, Semantic Checking, and Code Generation) are implemented in **Python**. The target environment for the generated code is the **Java Virtual Machine (JVM)**.
 
 ---
 
