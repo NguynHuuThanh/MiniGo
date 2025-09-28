@@ -1,0 +1,10 @@
+
+        func main() {
+            var str1 = "Hello"
+            var str2 = "World"
+            putStringLn(str1 + " " + str2)
+            putBoolLn(str1 == "Hello")
+            putBoolLn(str1 != str2)
+            putBoolLn(str1 < str2)
+        }
+        

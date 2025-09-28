@@ -1,0 +1,31 @@
+
+        func main() {
+            var n = 20
+            var isPrime [21] bool
+            var i = 0
+            for i <= n {
+                isPrime[i] = true
+                i += 1
+            }
+            isPrime[0] = false
+            isPrime[1] = false
+            i = 2
+            for i * i <= n {
+                if (isPrime[i]) {
+                    var j = i * i
+                    for j <= n {
+                        isPrime[j] = false
+                        j += i
+                    }
+                }
+                i += 1
+            }
+            i = 0
+            for i <= n {
+                if (isPrime[i]) {
+                    putIntLn(i)
+                }
+                i += 1
+            }
+        }
+        

@@ -1,0 +1,16 @@
+
+        func main() {
+            var a = 42
+            putIntLn(a)
+            a += 10
+            putIntLn(a)
+            a -= 5
+            putIntLn(a)
+            a *= 2
+            putIntLn(a)
+            a /= 3
+            putIntLn(a)
+            a %= 10
+            putInt(a)
+        }
+        

@@ -1,0 +1,13 @@
+
+        func min(a int, b int) int {
+            if (a < b) {
+                return a
+            }
+            return b
+        }
+        
+        func main() {
+            putIntLn(min(5, 10))
+            putInt(min(20, 15))
+        }
+        

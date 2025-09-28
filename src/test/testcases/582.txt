@@ -1,0 +1,12 @@
+
+        func main() {
+            var a = 10
+            var b = 20
+            putIntLn(a & b)    // Bitwise AND
+            putIntLn(a | b)    // Bitwise OR
+            putIntLn(a ^ b)    // Bitwise XOR
+            putIntLn(~a)       // Bitwise NOT
+            putIntLn(a << 2)   // Left shift
+            putIntLn(a >> 1)   // Right shift
+        }
+        

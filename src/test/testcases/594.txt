@@ -1,0 +1,18 @@
+
+    func power(x float, n int) float {
+        if (n == 0) {
+            return 1.0
+        }
+        var half = power(x, n / 2)
+        if (n % 2 == 0) {
+            return half * half
+        } else {
+            return x * half * half
+        }
+    }
+
+    func main() {
+        putFloatLn(power(2.0, 10))
+        putFloat(power(1.5, 3))
+    }
+        

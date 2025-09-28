@@ -1,0 +1,26 @@
+
+    func isUpperCase(c string) bool {
+        return c >= "A" && c <= "Z"
+    }
+
+    func isLowerCase(c string) bool {
+        return c >= "a" && c <= "z"
+    }
+
+    func main() {
+        var str = "Hello World"
+        var uppercase = 0
+        var lowercase = 0
+        var i = 0
+        for i < len(str) {
+            if (isUpperCase(str[i])) {
+                uppercase += 1
+            } else if (isLowerCase(str[i])) {
+                lowercase += 1
+            }
+            i += 1
+        }
+        putIntLn(uppercase)
+        putInt(lowercase)
+    }
+        

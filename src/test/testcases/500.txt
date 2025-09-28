@@ -1,0 +1,11 @@
+
+        type Person struct { id int; }
+        func main() {
+            var a [2][2]Person = [2][2]Person {{Person {id: 1}, Person {id: 2}}, {Person {id: 3}, Person {id: 4}}};
+            for i := 0; i < 2; i += 1 {
+                for j := 0; j < 2; j += 1 {
+                    putInt(a[i][j].id);
+                }
+            }
+        }
+        

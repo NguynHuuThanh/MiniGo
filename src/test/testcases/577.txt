@@ -1,0 +1,16 @@
+
+        func isPalindrome(n int) bool {
+            var original = n
+            var reversed = 0
+            for n > 0 {
+                reversed = reversed * 10 + n % 10
+                n = n / 10
+            }
+            return original == reversed
+        }
+        
+        func main() {
+            putBoolLn(isPalindrome(12321))
+            putBool(isPalindrome(12345))
+        }
+        

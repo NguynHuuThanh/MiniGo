@@ -1,0 +1,20 @@
+
+        func power(base float, exp int) float {
+            if (exp == 0) {
+                return 1.0
+            }
+            if (exp < 0) {
+                return 1.0 / power(base, -exp)
+            }
+            if (exp % 2 == 0) {
+                var half = power(base, exp / 2)
+                return half * half
+            }
+            return base * power(base, exp - 1)
+        }
+        
+        func main() {
+            putFloatLn(power(2.0, 3))
+            putFloat(power(3.0, 2))
+        }
+        

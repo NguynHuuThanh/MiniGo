@@ -1,0 +1,18 @@
+
+    func isLeapYear(year int) bool {
+        if (year % 400 == 0) {
+            return true
+        }
+        if (year % 100 == 0) {
+            return false
+        }
+        return year % 4 == 0
+    }
+
+    func main() {
+        putBoolLn(isLeapYear(2000))
+        putBoolLn(isLeapYear(2020))
+        putBoolLn(isLeapYear(2100))
+        putBool(isLeapYear(2023))
+    }
+        

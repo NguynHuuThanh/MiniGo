@@ -1,0 +1,20 @@
+
+        func isPrime(n int) bool {
+            if (n <= 1) {
+                return false
+            }
+            var i = 2
+            for i * i <= n {
+                if (n % i == 0) {
+                    return false
+                }
+                i += 1
+            }
+            return true
+        }
+        
+        func main() {
+            putBoolLn(isPrime(7))
+            putBoolLn(isPrime(10))
+        }
+        

@@ -1,0 +1,12 @@
+
+        func main() {
+            var n = 5
+            var factorial = 1
+            var i = 1
+            for i <= n {
+                factorial *= i
+                i += 1
+            }
+            putInt(factorial)
+        }
+        

@@ -1,0 +1,17 @@
+
+    func factorial(n int) int {
+        if (n <= 1) {
+            return 1
+        }
+        return n * factorial(n - 1)
+    }
+
+    func combination(n int, k int) int {
+        return factorial(n) / (factorial(k) * factorial(n - k))
+    }
+
+    func main() {
+        putIntLn(combination(5, 2))
+        putInt(combination(10, 3))
+    }
+        

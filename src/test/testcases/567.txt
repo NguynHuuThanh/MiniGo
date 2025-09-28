@@ -1,0 +1,19 @@
+
+        func main() {
+            var a [5] int = [5] int {5, 2, 8, 1, 9}
+            var max = a[0]
+            var min = a[0]
+            var i = 1
+            for i < 5 {
+                if (a[i] > max) {
+                    max = a[i]
+                }
+                if (a[i] < min) {
+                    min = a[i]
+                }
+                i += 1
+            }
+            putIntLn(max)
+            putInt(min)
+        }
+        
