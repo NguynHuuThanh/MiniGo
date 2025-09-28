@@ -51,12 +51,14 @@ The compiler project relies on **Python** (for implementation) and **Java** (for
 
 ### How to build
 1. **Build the compiler**
-   ```cd src
+   ```
+      cd src
       python3 run.py gen
    ```
 
 2. **Testing with 100 testcases for each module**
-   ```cd src
+   ```
+      cd src
       python3 run.py test LexerSuite
       python3 run.py test ParserSuite
       python3 run.py test ASTGenSuite
