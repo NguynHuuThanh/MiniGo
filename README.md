@@ -48,3 +48,18 @@ The compiler project relies on **Python** (for implementation) and **Java** (for
 3. **Install Python Runtime**
    ```bash
    pip install antlr4-python3-runtime==4.9.2
+
+### How to build
+1. **Build the compiler**
+   ```cd src
+      python3 run.py gen
+   ```
+
+2. **Testing with 100 testcases for each module**
+   ```cd src
+      python3 run.py test LexerSuite
+      python3 run.py test ParserSuite
+      python3 run.py test ASTGenSuite
+      python3 run.py test CheckerSuite
+      python3 run.py test CodeGenSuite
+   ```
